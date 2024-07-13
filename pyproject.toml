@@ -14,7 +14,6 @@ python = "^3.10"
 [tool.poetry.scripts]
 gendiff = "gendiff.scripts.gendiff:main"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
