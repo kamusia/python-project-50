@@ -5,7 +5,7 @@ def get_diff(dict1, dict2):
     keys = list(OrderedDict.fromkeys(list(dict1.keys()) + list(dict2.keys())))
     unchanged, deleted, changed, added = [], [], [], []
     for key in keys:
-        if key in dict1 and key in dict2:
+        if dict1.get(key) == dict2.get(key):
             unchanged.append(f"{key}: {dict1[key]}")
         if key in dict1 and key not in dict2:
             deleted.append(f"- {key}: {dict1[key]}")
