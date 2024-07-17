@@ -13,3 +13,8 @@ lint:
 
 test:
 	poetry run pytest
+
+test-coverage:
+	coverage run -m pytest
+	coverage report -m    
+   
