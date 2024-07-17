@@ -9,3 +9,6 @@ lint:
 
 check:
 	selfcheck test lint
+
+test:
+	poetry run pytest
