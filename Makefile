@@ -4,6 +4,10 @@ install:
 build:
 	poetry build
 
+check:
+	make lint
+	make test
+
 lint:
 	poetry run flake8 gendiff
 
