@@ -15,5 +15,5 @@ test:
 	poetry run pytest
 
 test-coverage:
-	coverage run -m pytest
+	poetry run pytest --cov=hexlet_python_package --cov-report xml
    
