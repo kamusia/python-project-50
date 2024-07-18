@@ -1,18 +1,11 @@
-from gendiff.diff import get_diff
+from gendiff.main import generate_diff
+import tempfile
 
 
 def test_gendiff():
-    assert get_diff(
-        {
-            "host": "hexlet.io",
-            "timeout": 50,
-            "proxy": "123.234.53.22"
-        },
-        {
-            "timeout": 20,
-            "host": "hexlet.io"
-        }
-    ) == '''host: hexlet.io
+    assert generate_diff('file1.json', 'file2.json') == '''host: hexlet.io
 - proxy: 123.234.53.22
+- follow: False
 - timeout: 50
-+ timeout: 20'''
++ timeout: 20
++ verbose: True'''
