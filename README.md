@@ -7,6 +7,6 @@
 
 ## Usage
 #### gendiff -h
-[![asciicast](https://asciinema.org/a/oK73kUV3s8kcghFbLl2y3IsvO.svg)](https://asciinema.org/a/oK73kUV3s8kcghFbLl2y3IsvO)
-#### gendiff *files*
-[![asciicast](https://asciinema.org/a/8InBt8gkpejrWGm8DhPDIdb0U.svg)](https://asciinema.org/a/8InBt8gkpejrWGm8DhPDIdb0U)
+[![asciicast](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI.svg)](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI)
+#### gendiff *file1* *file2*
+[![asciicast](https://asciinema.org/a/consIqXtrSVwvUahlZ1WZi2Eg.svg)](https://asciinema.org/a/consIqXtrSVwvUahlZ1WZi2Eg)
