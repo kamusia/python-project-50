@@ -8,7 +8,7 @@
 ## Usage
 #### gendiff -h
 [![asciicast](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI.svg)](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI)
-#### gendiff *file1* *file2*
+#### gendiff *file1* *file2* (--f stylish)
 [![asciicast](https://asciinema.org/a/consIqXtrSVwvUahlZ1WZi2Eg.svg)](https://asciinema.org/a/consIqXtrSVwvUahlZ1WZi2Eg)
 ### gendiff *file1* *file2* --f plain
 [![asciicast](https://asciinema.org/a/id2SGSmDqCPgWKhEGe0Mn81oy.svg)](https://asciinema.org/a/id2SGSmDqCPgWKhEGe0Mn81oy)
