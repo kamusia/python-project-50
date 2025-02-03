@@ -11,7 +11,8 @@ yml_old2 = 'tests/fixtures/nested_file1.yml'
 yml_new2 = 'tests/fixtures/nested_file2.yml'
 stylish = 'tests/fixtures/stylish'
 nested_stylish = 'tests/fixtures/nested_stylish'
-plain = 'tests/fixtures/plain'
+nested_plain = 'tests/fixtures/nested_plain'
+nested_json = 'tests/fixtures/nested_json.json'
 
 
 @pytest.mark.parametrize(
@@ -21,10 +22,11 @@ plain = 'tests/fixtures/plain'
         (yaml_old, yaml_new, 'stylish', stylish),
         (json_old2, json_new2, 'stylish', nested_stylish),
         (yml_old2, yml_new2, 'stylish', nested_stylish),
-        (json_old, json_new, 'plain', plain),
-        (yaml_old, yaml_new, 'plain', plain),
-        (json_old2, json_new2, 'plain', plain),
-        (yml_old2, yml_new2, 'plain', plain),
+        (json_old, json_new, 'plain', nested_plain),
+        (yaml_old, yaml_new, 'plain', nested_plain),
+        (json_old2, json_new2, 'plain', nested_plain),
+        (yml_old2, yml_new2, 'plain', nested_plain),
+        (json_old2, json_new2, 'json', nested_json)
     ]
 )
 def test_gendiff(path1, path2, format, expected):

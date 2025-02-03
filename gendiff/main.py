@@ -2,6 +2,7 @@ from gendiff.diff import get_diff
 from gendiff.parser import parse
 from gendiff.views.stylish import format_stylish
 from gendiff.views.plain import format_plain
+from gendiff.views.json import format_json
 
 
 def generate_diff(first_file, second_file, format='stylish'):
@@ -12,3 +13,5 @@ def generate_diff(first_file, second_file, format='stylish'):
             return format_stylish(diff)
         case 'plain':
             return format_plain(diff)
+        case 'json':
+            return format_json(diff)
