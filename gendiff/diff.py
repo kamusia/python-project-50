@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 
 def get_diff(dict1, dict2):
-    keys = list(OrderedDict.fromkeys(list(dict1.keys()) + list(dict2.keys())))
+    keys = sorted(set(dict1.keys()).union(dict2.keys()))
     diff = {}
 
     for i in keys:

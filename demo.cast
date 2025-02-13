@@ -1,9 +1,0 @@
-{"version": 2, "width": 163, "height": 27, "timestamp": 1738613543, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
-[0.022274, "o", "\u001b[?2004h\u001b]0;kamusia@DESKTOP-OR26DIO: /mnt/c/Users/kamusia/git/python-project-50\u0007\u001b[01;32mkamusia@DESKTOP-OR26DIO\u001b[00m:\u001b[01;34m/mnt/c/Users/kamusia/git/python-project-50\u001b[00m$ "]
-[0.583313, "o", "\u001b[7mgendiff file1.json file2.json --f json\u001b[27m"]
-[1.165223, "o", "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bgendiff file1.json file2.json --f json\r\n\u001b[?2004l\r"]
-[1.550167, "o", "{\r\n    \"follow\": {\r\n        \"type\": \"removed\",\r\n        \"value\": false\r\n    },\r\n    \"host\": {\r\n        \"type\": \"unchanged\",\r\n        \"value\": \"hexlet.io\"\r\n    },\r\n    \"proxy\": {\r\n        \"type\": \"removed\",\r\n        \"value\": \"123.234.53.22\"\r\n    },\r\n    \"timeout\": {\r\n        \"type\": \"changed\",\r\n        \"old\": 50,\r\n        \"new\": 20\r\n    },\r\n    \"verbose\": {\r\n        \"type\": \"added\",\r\n        \"value\": true\r\n    }\r\n}\r\n"]
-[1.556286, "o", "\u001b[?2004h\u001b]0;kamusia@DESKTOP-OR26DIO: /mnt/c/Users/kamusia/git/python-project-50\u0007\u001b[01;32mkamusia@DESKTOP-OR26DIO\u001b[00m:\u001b[01;34m/mnt/c/Users/kamusia/git/python-project-50\u001b[00m$ "]
-[4.920716, "o", "\u001b[7mexit\u001b[27m"]
-[5.285026, "o", "\b\b\b\bexit\r\n\u001b[?2004l\r"]
-[5.285222, "o", "exit\r\n"]
