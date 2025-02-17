@@ -1,5 +1,5 @@
 import pytest
-from gendiff.main import generate_diff
+from gendiff.generate_diff import generate_diff
 
 json_old = 'tests/fixtures/file1.json'
 json_new = 'tests/fixtures/file2.json'

@@ -11,7 +11,7 @@ def parse(data, format):
         raise ValueError("Unsupported format")
 
 
-def open_file(file):
+def open_file_and_parse(file):
     with open(file, 'r') as f:
         data = f.read()
 
