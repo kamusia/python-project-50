@@ -8,6 +8,25 @@ Difference Calculator allows you to find the differences between two files in JS
 
 To get started, choose your files and follow the instructions.
 
+## Installation
+1. Clone this repository to your local machine.
+```
+# via HTTPS:
+>> git clone https://github.com/kamusia/python-project-50.git
+# or via SSH
+>> git clone git@github.com:kamusia/python-project-50.git
+```
+2. install the package with commands.
+```
+>> poetry build
+>> python3 -m pip install --user dist/*.whl
+```
+3. Run the games using the command brain-<game_name>.
+```
+# example
+>> brain-even
+```
+
 ## Usage
 #### gendiff -h
 [![asciicast](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI.svg)](https://asciinema.org/a/mdNcJcggdOFnou8WoQUx0hroI)
