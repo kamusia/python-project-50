@@ -18,8 +18,7 @@ To get started, choose your files and follow the instructions.
 ```
 2. install the package with commands.
 ```
->> poetry build
->> python3 -m pip install --user dist/*.whl
+>> poetry install
 ```
 3. Run the games using the command brain-<game_name>.
 ```
