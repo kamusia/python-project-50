@@ -20,10 +20,10 @@ To get started, choose your files and follow the instructions.
 ```
 >> make setup
 ```
-3. Run the games using the command brain-<game_name>.
+3. Run the program using the command.
 ```
 # example
->> brain-even
+>> gendiff file1.json file2.json
 ```
 
 ## Usage
