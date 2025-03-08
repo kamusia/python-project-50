@@ -16,14 +16,14 @@ To get started, choose your files and follow the instructions.
 # or via SSH
 >> git clone git@github.com:kamusia/python-project-50.git
 ```
-2. install the package with commands.
+2. install the package with command.
 ```
->> poetry install
+>> make setup
 ```
-3. Run the games using the command brain-<game_name>.
+3. Run the program using the command.
 ```
 # example
->> brain-even
+>> gendiff file1.json file2.json
 ```
 
 ## Usage
