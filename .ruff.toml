@@ -1,0 +1,4 @@
+[lint]
+ignore = [
+    "SyntaxError: Cannot use `match` statement on Python 3.9",
+]
